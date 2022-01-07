@@ -9,3 +9,9 @@ docker run -d -p 8080:3000 mac_02/node
 # cap_04 - Criando um container a partir da nossa imagem
 
 docker run -d -p 8080:3000 mac_02/node
+
+# cap_05 - Criando a nossa própria rede do Docker
+
+docker network create --driver bridge minha-rede
+docker run -it --name meu-container-de-ubuntu --network minha-rede ubuntu
+docker run -it --name segundo-ubuntu --network minha-rede ubuntu
