@@ -18,5 +18,13 @@ docker run -it --name segundo-ubuntu --network minha-rede ubuntu
 
 # cap_05 - Pegando dados de um banco em um outro container
 
-docker pull douglasq/alura-books:cap05
+docker pull douglasq/alura-books:cap05 -> Não vou usar esse porque baixei os arquivos e criei a imagem na mão
+Usei então o comando abaixo:
+docker build -f alura-books.dockerfile -t mac_02/alura-books .
 docker pull mongo
+
+# cap_05 - Pegando dados de um banco em um outro container
+
+docker run -d -p 8080:3000 mac_02/alura-books
+docker run -d --name meu-mongo --network minha-rede mongo
+docker run --network minha-rede -d -p 8080:3000 mac_02/alura-books
