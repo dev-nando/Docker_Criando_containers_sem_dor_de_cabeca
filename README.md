@@ -1,7 +1,7 @@
 # Docker: Criando containers sem dor de cabeça
 [![Docker](https://badgen.net/badge/icon/docker?icon=docker&label)](https://https://docker.com/) ![Badge](https://img.shields.io/static/v1?label=Status&message=completo&color=brightgreen&style=flat)
 
-Código final criado durante o curso [Docker: Criando containers sem dor de cabeça](https://cursos.alura.com.br/course/docker-e-docker-compose), que faz parte da [Certificação Docker DCA](https://cursos.alura.com.br/formacao-docker-dca)e da [Formação DevOps](https://cursos.alura.com.br/formacao-devops)
+Código final criado durante o curso [Docker: Criando containers sem dor de cabeça](https://cursos.alura.com.br/course/docker-e-docker-compose), que faz parte da formação da [Certificação Docker DCA](https://cursos.alura.com.br/formacao-docker-dca) e da [Formação DevOps](https://cursos.alura.com.br/formacao-devops)
 
 ## Conteúdo do Curso
 > **Introdução ao Docker**
